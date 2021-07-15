@@ -1,0 +1,7 @@
+  418  cp /usr/share/bbb-web/WEB-INF/classes/bigbluebutton.properties ./
+  419  cp /var/www/bigbluebutton/client/conf/layout.xml ./
+  420  cp /usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml ./
+  421  cp /usr/local/bigbluebutton/core/scripts/bigbluebutton.yml ./
+  422  cp /etc/bigbluebutton/nginx/client.nginx ./
+  423  history | tail -7
+  424  history | tail -7 > file_editable.txt
